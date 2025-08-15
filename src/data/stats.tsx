@@ -1,22 +1,24 @@
-import { BsBarChartFill, BsFillStarFill } from "react-icons/bs";
-import { PiGlobeFill } from "react-icons/pi";
+import { BsShieldFill, BsCameraVideoFill, BsTools } from "react-icons/bs";
 
 import { IStats } from "@/types";
 
 export const stats: IStats[] = [
-    {
-        title: "20M+",
-        icon: <BsBarChartFill size={34} className="text-blue-500" />,
-        description: "Transactions processed securely every day, providing real-time insights."
-    },
-    {
-        title: "5.0",
-        icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-        description: "Star rating, consistently maintained across app stores."
-    },
-    {
-        title: "200+ ",
-        icon: <PiGlobeFill size={34} className="text-green-600" />,
-        description: "Financial Institutions, seamlessly integrated, so you can manage all accounts."
-    }
+  {
+    title: "15+",
+    icon: <BsShieldFill size={34} className="text-blue-500" />,
+    description:
+      "Lat doświadczenia w branży teleinformatycznej i systemach bezpieczeństwa.",
+  },
+  {
+    title: "500+",
+    icon: <BsCameraVideoFill size={34} className="text-green-600" />,
+    description:
+      "Zrealizowanych projektów systemów monitoringu i kontroli dostępu.",
+  },
+  {
+    title: "24/7",
+    icon: <BsTools size={34} className="text-orange-500" />,
+    description:
+      "Wsparcie techniczne i serwis dla wszystkich naszych instalacji.",
+  },
 ];

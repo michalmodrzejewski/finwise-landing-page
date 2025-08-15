@@ -1,6 +1,7 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
-    appStoreUrl: '#',
-    googlePlayUrl: '#'
-}
+  heading: "Potrzebujesz profesjonalnej instalacji słaboprądowej?",
+  subheading:
+    "Skontaktuj się z nami już dziś! Oferujemy kompleksowe rozwiązania w zakresie systemów bezpieczeństwa, monitoringu i automatyki. Twój projekt, nasza specjalizacja.",
+  appStoreUrl: "#",
+  googlePlayUrl: "#",
+};
